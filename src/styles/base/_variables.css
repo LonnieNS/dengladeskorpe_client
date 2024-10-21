@@ -1,0 +1,13 @@
+:root {
+
+
+    --font-jah: "Just Another Hand";
+    --font-kurale: "Kurale";
+
+    --primary-font: var(--font-kurale);
+
+    --base-text-color : #000000;
+    --base-background-color : #fff;
+    
+}
+
