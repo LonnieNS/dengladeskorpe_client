@@ -1,30 +1,45 @@
 import { useRoutes } from "react-router-dom";
 
-// Common Pages.
+// Import Pages.
 import HomePage from "./pages/home/HomePage";
 import Backoffice from "./pages/backoffice/BackOffice";
 import BOEmployees from "./pages/backoffice/BOEmployees/BOEmployees";
+import EmployeesPage from "./pages/employees/EmployeesPage";
+import ContactPage from "./pages/contact/ContactPage";
+import BasketPage from "./pages/basket/BasketPage";
 
-// Application
+// App
 const App = () => {
 
-  // Setting Up Routes
+  // Routes
   const routes = useRoutes([
     {
       path: "/",
       element : <HomePage></HomePage>
     },
+    {
+      path: "/employees",
+      element : <EmployeesPage></EmployeesPage>
+    },
+    {
+      path: "/contact",
+      element : <ContactPage></ContactPage>
+    },
+    {
+      path: "/basket",
+      element : <BasketPage></BasketPage>
+    },
 
     {
       path: "/backoffice",
-      element : <Backoffice></Backoffice>,
-      children: [
-        {
-          path: "/backoffice/employees",
-          element : <BOEmployees></BOEmployees>
-        }
-      ]
+      element : <Backoffice></Backoffice>
     },
+
+    {
+      path: "/backoffice/employees",
+      element : <BOEmployees></BOEmployees>
+    },
+  
     {
       path: "*",
       element : <div>404 NOT FOUND</div>

@@ -3,6 +3,7 @@ const DishPage = () => {
 
     return (
         <div>
+            dish
         </div>
     );
 };

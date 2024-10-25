@@ -3,6 +3,7 @@ const BOEmployees = () => {
 
     return (
         <div>
+            backoffice employees
         </div>
     );
 };

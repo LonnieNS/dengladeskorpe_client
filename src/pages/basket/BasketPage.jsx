@@ -3,6 +3,7 @@ const BasketPage = () => {
 
     return (
         <div>
+            basket
         </div>
     );
 };

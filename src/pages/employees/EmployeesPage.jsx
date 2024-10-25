@@ -3,6 +3,7 @@ const EmployeesPage = () => {
 
     return (
         <div>
+            employees
         </div>
     );
 };
