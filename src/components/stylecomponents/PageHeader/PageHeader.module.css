@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    background-image:url('../../../assets/headerImg.png');
+    height: 100vw; /* 100vw i stedet for 100vh, for at sikre det altid er et kvadratisk header-billede, i fuld bredde på mobil*/
+    background-position: center;
+    background-size:cover;
+
+    .headerHeading{
+
+        color: var(--light-text-color);
+        width: 100%;
+        height: 100%;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span{
+
+            display:block;
+            text-transform:uppercase;
+        }
+
+        .top{
+            font-size: clamp(1rem, 0.545rem + 2.273vw, 2rem);
+        }
+
+        .middle{
+            font-size: clamp(2.2rem, 1.2rem + 5vw, 4.4rem);
+        }
+
+        .bottom {
+            font-size: clamp(1.5rem, 0.818rem + 3.409vw, 3rem);
+        }
+    }
+}
+
+@media (min-width: 1024px) { 
+
+    .container{
+        height: 30vh;
+    }
+}

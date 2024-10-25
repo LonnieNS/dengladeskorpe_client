@@ -1,0 +1,106 @@
+.container{
+
+    padding: 20px 0;
+
+    .imageBox{
+        width: 200px;
+        margin-inline:auto;
+        margin-bottom: 20px;
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+        }
+    }
+
+    .infoBox{
+        background-color: var(--light-bg);
+        padding: 10%;
+        margin-bottom: 20px;
+    
+        .ingredientList{
+            list-style-type:none;
+            margin-top: 10%;
+    
+            .listItem{
+                font-size: 1rem;
+                text-align: center;
+                line-height: 2.5;
+            }
+        }
+    }
+
+    .selectionBox{
+        form {
+            padding: 10%;
+
+            select {
+                width: 100%;
+                border-radius: 0;
+                border-style: none;
+                padding: 20px;
+                background-color: var(--light-bg);
+            }
+
+        }
+    }
+
+    .priceBox{
+        margin-bottom: 30px;
+
+        .priceHeading{
+            font-family: var(--primary-font);
+            text-align:center;
+        }
+
+        .priceParagraph{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+    }
+
+    .button {
+        width: 70%;
+        margin-inline: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1024px) { 
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+
+        .splitBox{
+            width:60%;
+            margin-bottom: 50px;
+        }
+
+        .splitBoxLeft{
+            width: 40%;
+            background-color:var(--light-bg);
+        }
+
+        .imageBox{
+            width: 300px;
+        }
+
+        .selectionBox{
+            margin-top: 20vh;
+        }
+
+        .infoBox{
+            background: none;
+            padding: 25px;
+
+            .ingredientList{
+                margin-top: 25px;
+            }
+        }
+    }
+
+}

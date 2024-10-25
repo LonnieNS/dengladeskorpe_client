@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+
+    .tableContainer, .formContainer{
+        margin-top: 5vh;
+        padding: 20px;
+        width: 50%;
+    }
+}

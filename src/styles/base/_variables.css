@@ -5,9 +5,14 @@
     --font-kurale: "Kurale";
 
     --primary-font: var(--font-kurale);
+    --secondary-font: var(--font-jah);
 
-    --base-text-color : #000000;
-    --base-background-color : #fff;
+    --dark-text-color : #000000;
+    --light-text-color : #fff;
+
+    --dark-bg: #4A4A4A;
+    --light-bg:#DFD4D1;
+;
     
 }
 

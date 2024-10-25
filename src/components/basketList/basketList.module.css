@@ -1,0 +1,46 @@
+.container{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+    h2{
+        padding-bottom: 5vh;
+    }
+
+    h3{
+        font-family: var(--primary-font);
+        text-align:center;
+        margin-bottom: 5vh;
+    }
+
+    .formContainer{
+        padding: 5%;
+    }
+
+    input{
+        margin-bottom:5vh;
+        height: 100px;
+    }
+
+    label{
+        font-size:1rem;
+    }
+
+}
+
+@media (min-width: 1024px) { 
+
+    .container{
+        display: flex;
+        padding: 30px;
+        justify-content:space-around;
+
+        .listWrapper {
+            width: 70%;
+            padding: 20px;
+        }
+
+        .formContainer{
+            padding-top:20vh;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.container{
+    padding: 0 10%;
+
+    h2{
+        font-family: var(--primary-font);
+        margin-bottom: 15px;
+        text-shadow: none;
+    }
+
+    form {
+        background-color:var(--light-bg);
+        padding: 20px;
+
+        label{
+            font-size: 1.2rem;
+        }
+
+        input {
+            border-style:none;
+        }
+
+        .imageInput{
+            display:none;
+        }
+
+        .formBtn{
+            width: 100%;
+            border-style:none;
+            padding: 5px;
+            border-radius:5px;
+            background-color:var(--dark-bg);
+            color:var(--light-text-color);
+            font-family: var(--primary-font);
+        }
+    }
+
+}

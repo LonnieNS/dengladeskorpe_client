@@ -1,0 +1,12 @@
+.container{
+    padding: 5%;
+    padding-top: 7vh;
+
+    .blurbHeading{
+        margin-bottom: 3vh;
+    }
+
+    .blurbParagraph{
+        text-align:center;
+    }
+}

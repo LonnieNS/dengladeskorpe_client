@@ -1,9 +1,12 @@
+import { Outlet } from "react-router-dom";
+import BoNav from "../../components/backOfficeComponents/BoNav/BoNav";
 
 const Backoffice = () => {
 
     return (
-        <div>
-            Backoffice
+        <div className="pageWrapper">
+            <BoNav></BoNav>
+            <Outlet />
         </div>
     );
 };

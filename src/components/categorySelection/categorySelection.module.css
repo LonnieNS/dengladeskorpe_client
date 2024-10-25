@@ -1,0 +1,42 @@
+.container {
+
+
+    .catContainer{
+        background-color: var(--light-bg);    
+        padding: 15px;   
+    
+        .categories{
+            padding-top: 20px;
+            width: 100%;
+            display:flex;
+            justify-content: space-around;
+
+            .category{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }   
+}
+
+
+@media (min-width: 1024px) { 
+
+    .container{
+
+        .catContainer{
+
+        .categories{
+            width:80%;
+            margin-inline:auto;
+
+            .category{
+            width: 150px;
+            height: 150px;
+        }
+        
+        }
+    }
+        
+    }
+}

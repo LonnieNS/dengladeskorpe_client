@@ -1,0 +1,8 @@
+.container{
+
+    h2{
+        font-family: var(--primary-font);
+        margin-bottom: 15px;
+        text-shadow: none;
+    }
+}

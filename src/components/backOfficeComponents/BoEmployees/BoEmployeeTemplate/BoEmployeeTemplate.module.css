@@ -1,0 +1,22 @@
+
+    .actions{
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        padding: 5px;
+        
+        .tableBtn{
+            height: fit-content;
+            border-style:none;
+            padding: 4px;
+            border-radius:5px;
+            background-color:var(--dark-bg);
+            color:var(--light-text-color);
+            font-family: var(--primary-font);
+            text-decoration: none;
+        }
+    }
+    
+
+

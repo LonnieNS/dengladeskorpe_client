@@ -1,0 +1,42 @@
+.container {
+    width: 100vw;
+    background-color: var(--dark-bg);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .heading{
+        text-align:center;
+
+        .boheading {
+            color:white;
+            font-family: var(--primary-font);
+            font-size: 2rem;
+        }
+    }
+  
+
+    .navlinks{
+        width: 50%;
+        text-align:center;
+        font-family: var(--primary-font);
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-around;
+
+        .singleLink {
+            color:white;
+            text-decoration: none;
+            
+        }  
+         .returnLink{
+            color:var(--light-bg);
+            text-decoration: none;
+        }
+
+    }   
+
+  
+
+    
+}

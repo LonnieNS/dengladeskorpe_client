@@ -1,0 +1,18 @@
+.container {
+    padding:3vh;
+
+    h2{
+        font-family: var(--primary-font);
+        margin-bottom: 15px;
+        text-shadow: none;
+    }
+
+    .formContainer {
+        width: 70%;
+        margin-inline: auto;
+        background-color: var(--light-bg);
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+}

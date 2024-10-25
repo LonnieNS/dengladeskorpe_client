@@ -1,0 +1,12 @@
+.container{
+    background-image:url("../../../assets/basket_icon.png");
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    padding:15px;
+
+    p{
+        text-align:center;
+        font-size:1.5rem;
+    }
+}

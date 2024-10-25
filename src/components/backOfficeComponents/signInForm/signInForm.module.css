@@ -1,0 +1,35 @@
+.container{
+    
+    h2{
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-family: var(--primary-font);
+        text-shadow: none;
+    }
+
+    form{
+        width:50%;
+        background-color:var(--light-bg);
+        padding: 20px;
+        margin-inline:auto;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    input {
+        border-style:none;
+    }
+
+    button{
+        width: 100%;
+            border-style:none;
+            padding: 5px;
+            border-radius:5px;
+            background-color:var(--dark-bg);
+            color:var(--light-text-color);
+            font-family: var(--primary-font);
+        }
+    
+}

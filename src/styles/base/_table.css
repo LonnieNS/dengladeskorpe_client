@@ -1,34 +1,18 @@
 
 table {
     width : 100%;
-    button {
-        margin : 0;
-    }
+    font-size: 1rem;
+    text-align:center;
+    
+   
     img {
         width : 50px;
     }
-    border-spacing: 0;
-
-    .table-actions {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80px;
-        gap : 10px;
-    }
-  
-}
-thead th,
-tfoot th {
-  font-weight: 700;
-  text-align: left;
-  border-bottom: 1px solid black;
+    
 }
 
-tfoot {
-    button {
-        margin : 10px 10px 0 0;
-    }
+th {
+    background-color:var(--light-bg);
 }
 
 th, td {
@@ -39,10 +23,9 @@ th, td {
 }
 
 tr {
-    border-bottom: 1px solid black;
+    background-color:#f1ede7;
    
     &:nth-child(even) {
-        background-color: var(--mc-color-yellow);
-  
+        background-color:var(--light-bg);
     }
 }
